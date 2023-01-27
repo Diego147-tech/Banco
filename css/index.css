@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 180vh;
+}
+/* Decoracion primera parte */
+.cabezera{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0.3;
+    margin: 2px 15px;
+    margin-bottom: 10px;
+    border-radius: 18px;
+}
+
+.cuerpo{
+    display: flex;
+    flex: 0.7;
+    margin: 0px 15px;
+}
+/* Decoracion del pie de pagina */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 0px 15px 5px 15px;
+    flex: 0.1;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.842);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+/* Cambio a decoracion */
+.fat{
+    display: flex;
+    flex: 1;
+}
+.fat img{
+    width: 90rem;
+    height: 14.3rem;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+.cabezera ul div{
+    width: 4px;
+    height: 45px;
+    margin-left: 8rem;
+    background-color: wheat;
+}
+
+.cabezera aside ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(236, 240, 4);
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    height: 4.5rem;
+}
+
+.cabezera ul li{
+    list-style: none;
+    font-size: 24px;
+    color: black;
+}
+.cabezera div{
+    background-color: black;
+    width: 83.5rem;
+    height: 0.5rem;
+}
+.cabezera ul a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+/* DECORACION DE CUERPO */
+#izquierda{
+    display: flex;
+    flex-direction: column;
+    flex: 0.28;
+}
+#derecha{
+    display: flex;
+    justify-content: space-around;
+    padding: 0rem 1.5rem;
+    flex-wrap: wrap;
+    flex: 0.75;
+}
+
+/* Cuadro uno menu */
+#izquierda .texto{
+    display: flex;
+    flex-direction: column;
+    flex: 0.4;
+}
+
+#izquierda .texto2{
+    display: flex;
+    flex-direction: column;
+    flex: 0.6;
+}
+
+.texto h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    background-color: black;
+    color: white;
+}
+
+.texto form{
+    height: 14rem;
+    padding: 0px 30px;
+    background-color: gray;
+}
+.lok{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.lo2{
+    margin-left: 13px;
+}
+.lo3{
+    margin-left: 22px;
+}
+.texto form label{
+    font-size: 20px;
+}
+.texto form input{
+    margin-bottom: 25px;
+    font-size: 17px;
+}
+.texto button{
+    margin-left: 4.3rem;
+    width: 6.5rem;
+    height: 1.8rem;
+    background-color: yellow;
+    border: 2px solid black;
+}
+/* SEGUNDA PARTE */
+.texto2 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 2rem;
+    color: yellow;
+}
+
+#part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 14.5rem;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+#part1 div{
+    background-color: rgba(128, 128, 128, 0.418);
+    width: 19rem;
+    height: 2px;
+}
+
+
+#part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 7rem;
+    font-size: 21px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+#part2 div{
+    background-color: rgba(128, 128, 128, 0.418);
+    width: 19rem;
+    height: 2px;
+}
+
+/* SECCION DE ARTICULOS */
+#derecha .coral{
+    display: flex; 
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.452);
+    width: 28rem;
+    height: 21rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.coral h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 3.5rem;
+}
+
+.coral img{
+    margin-left: 6.5rem;
+    margin-top: 10px;
+    width: 16rem;
+    height: 9.5rem;
+}
+
+.coral p{
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    text-align: justify;
+    width: 90%;
+}
+
+.iz{
+    border-top-left-radius: 2rem;
+}
+.de{
+    border-top-right-radius: 2rem;
+}
+#las{
+    border-bottom-left-radius: 2rem;
+}
+#de2{
+    border-bottom-right-radius: 2rem;
+}
